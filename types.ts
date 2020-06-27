@@ -1,5 +1,7 @@
 let mystring: string;
+let mynumber: number;
 
-mystring = "ravindu";
+// mystring = "hello";
+mynumber = 12;
 
-console.log(mystring);
+console.log(mynumber);
