@@ -6,7 +6,7 @@ let myany: any;
 // mystring = "hello";
 // mynumber = 12;
 // mybool = true;
-myany = true;
+myany = {};
 
 
 console.log(myany);
