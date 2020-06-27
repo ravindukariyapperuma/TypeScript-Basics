@@ -16,12 +16,18 @@
 // let numArray: number[];
 // let boolArray: boolean[];
 
-let stringArray: Array<string>;
-let numArray: Array<number>;
-let boolArray: Array<boolean>;
+// let stringArray: Array<string>;
+// let numArray: Array<number>;
+// let boolArray: Array<boolean>;
 
-stringArray = ["one","two","three",];
-numArray = [1,2,3,4];
-boolArray = [true,false,false];
+// stringArray = ["one","two","three",];
+// numArray = [1,2,3,4];
+// boolArray = [true,false,false];
 
-console.log(stringArray);
+// Tuple **************************************
+
+let myTuple: [string,string,number];
+
+myTuple = ["hello","world",2];
+
+console.log(myTuple);
