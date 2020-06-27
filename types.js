@@ -8,6 +8,8 @@
 // mybool = true;
 // myany = {};
 // Arrays **************************************
-var stringArray;
-stringArray = ["one", "two", "three",];
-console.log(stringArray);
+// let stringArray: string[];
+var numArray;
+// stringArray = ["one","two","three",];
+numArray = [1, 2, 3, 4];
+console.log(numArray);

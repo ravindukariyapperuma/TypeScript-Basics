@@ -12,8 +12,10 @@
 
 // Arrays **************************************
 
-let stringArray: string[];
+// let stringArray: string[];
+let numArray: number[];
 
-stringArray = ["one","two","three",];
+// stringArray = ["one","two","three",];
+numArray = [1,2,3,4];
 
-console.log(stringArray);
+console.log(numArray);
