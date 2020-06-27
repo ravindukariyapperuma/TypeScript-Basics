@@ -19,5 +19,5 @@
 // boolArray = [true,false,false];
 // Tuple **************************************
 var myTuple;
-myTuple = ["hello", "world", 2];
+myTuple = ["hello", "world", 2, "hi", true, "all", 5];
 console.log(myTuple);

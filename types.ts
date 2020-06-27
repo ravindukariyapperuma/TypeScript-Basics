@@ -28,6 +28,6 @@
 
 let myTuple: [string,string,number];
 
-myTuple = ["hello","world",2];
+myTuple = ["hello","world",2,"hi",true,"all",5];
 
 console.log(myTuple);
