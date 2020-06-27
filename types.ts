@@ -26,8 +26,14 @@
 
 // Tuple **************************************
 
-let myTuple: [string,string,number];
+// let myTuple: [string,string,number];
 
-myTuple = ["hello","world",2,"hi",true,"all",5];
+// myTuple = ["hello","world",2];
 
-console.log(myTuple);
+// Void ***************************************
+
+let myVoid: void;
+
+myVoid = undefined;
+
+console.log(myVoid);

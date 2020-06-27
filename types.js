@@ -18,6 +18,9 @@
 // numArray = [1,2,3,4];
 // boolArray = [true,false,false];
 // Tuple **************************************
-var myTuple;
-myTuple = ["hello", "world", 2, "hi", true, "all", 5];
-console.log(myTuple);
+// let myTuple: [string,string,number];
+// myTuple = ["hello","world",2];
+// Void ***************************************
+var myVoid;
+myVoid = undefined;
+console.log(myVoid);
