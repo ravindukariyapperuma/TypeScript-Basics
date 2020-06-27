@@ -32,8 +32,13 @@
 
 // Void ***************************************
 
-let myVoid: void;
+// let myVoid: void;
 
-myVoid = null;
+// myVoid = null;
 
-console.log(myVoid);
+// Undefined and null *************************
+
+let u: undefined = undefined;
+let n: null = null;
+
+console.log(n);

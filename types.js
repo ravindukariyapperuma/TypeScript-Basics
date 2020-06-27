@@ -21,6 +21,9 @@
 // let myTuple: [string,string,number];
 // myTuple = ["hello","world",2];
 // Void ***************************************
-var myVoid;
-myVoid = null;
-console.log(myVoid);
+// let myVoid: void;
+// myVoid = null;
+// Undefined and null *************************
+var u = undefined;
+var n = null;
+console.log(n);
