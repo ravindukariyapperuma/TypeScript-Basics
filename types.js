@@ -1,9 +1,13 @@
-var mystring;
-var mynumber;
-var mybool;
-var myany;
+// Data types *********************************
+// let mystring: string;
+// let mynumber: number;
+// let mybool: boolean;
+// let myany: any;
 // mystring = "hello";
 // mynumber = 12;
 // mybool = true;
-myany = {};
-console.log(myany);
+// myany = {};
+// Arrays **************************************
+var stringArray;
+stringArray = ["one", "two", "three",];
+console.log(stringArray);
