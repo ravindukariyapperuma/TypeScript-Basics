@@ -13,9 +13,11 @@
 // Arrays **************************************
 
 // let stringArray: string[];
-let numArray: number[];
+// let numArray: number[];
+let boolArray: boolean[];
 
 // stringArray = ["one","two","three",];
-numArray = [1,2,3,4];
+// numArray = [1,2,3,4];
+boolArray = [true,false,false];
 
-console.log(numArray);
+console.log(boolArray);

@@ -9,7 +9,9 @@
 // myany = {};
 // Arrays **************************************
 // let stringArray: string[];
-var numArray;
+// let numArray: number[];
+var boolArray;
 // stringArray = ["one","two","three",];
-numArray = [1, 2, 3, 4];
-console.log(numArray);
+// numArray = [1,2,3,4];
+boolArray = [true, false, false];
+console.log(boolArray);
