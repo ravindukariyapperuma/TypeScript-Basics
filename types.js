@@ -22,5 +22,5 @@
 // myTuple = ["hello","world",2];
 // Void ***************************************
 var myVoid;
-myVoid = undefined;
+myVoid = null;
 console.log(myVoid);

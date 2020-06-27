@@ -34,6 +34,6 @@
 
 let myVoid: void;
 
-myVoid = undefined;
+myVoid = null;
 
 console.log(myVoid);
