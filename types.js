@@ -10,8 +10,11 @@
 // Arrays **************************************
 // let stringArray: string[];
 // let numArray: number[];
+// let boolArray: boolean[];
+var stringArray;
+var numArray;
 var boolArray;
-// stringArray = ["one","two","three",];
-// numArray = [1,2,3,4];
+stringArray = ["one", "two", "three",];
+numArray = [1, 2, 3, 4];
 boolArray = [true, false, false];
-console.log(boolArray);
+console.log(stringArray);

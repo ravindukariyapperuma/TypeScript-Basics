@@ -14,10 +14,14 @@
 
 // let stringArray: string[];
 // let numArray: number[];
-let boolArray: boolean[];
+// let boolArray: boolean[];
 
-// stringArray = ["one","two","three",];
-// numArray = [1,2,3,4];
+let stringArray: Array<string>;
+let numArray: Array<number>;
+let boolArray: Array<boolean>;
+
+stringArray = ["one","two","three",];
+numArray = [1,2,3,4];
 boolArray = [true,false,false];
 
-console.log(boolArray);
+console.log(stringArray);
