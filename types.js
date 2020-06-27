@@ -1,5 +1,3 @@
-var people = /** @class */ (function () {
-    function people() {
-    }
-    return people;
-}());
+var mystring;
+mystring = "ravindu";
+console.log(mystring);
