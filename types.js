@@ -5,5 +5,5 @@ var myany;
 // mystring = "hello";
 // mynumber = 12;
 // mybool = true;
-myany = 12;
+myany = "hello";
 console.log(myany);
