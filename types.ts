@@ -58,7 +58,7 @@ console.log(getTotal("ravindu","lakshan"));
 */
 
 // Interfaces ==================================================
-
+/*
 interface MyBiodata{
     title: string;
     age: number;
@@ -71,3 +71,22 @@ function myinterface(mydata: MyBiodata){
 let Mybio = {title: "Ravindu", age: 22};
 
 myinterface(Mybio);
+*/
+
+// Classes =======================================================
+
+class User {
+    name: string;
+    age: number;
+    socialm: string;
+
+    constructor( name: string, age: number, socialm: string){
+        this.name = name;
+        this.age = age;
+        this.socialm = socialm;
+
+        console.log("Hi " + this.name);
+    }
+}
+
+let Ravindu = new User("ravindu",22,"facebook");
