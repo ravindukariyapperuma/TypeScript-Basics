@@ -76,9 +76,9 @@ myinterface(Mybio);
 // Classes =======================================================
 
 class User {
-    name: string;
-    age: number;
-    socialm: string;
+    private name: string;
+    public age: number;
+    protected socialm: string;
 
     constructor( name: string, age: number, socialm: string){
         this.name = name;
@@ -87,6 +87,10 @@ class User {
 
         console.log("Hi " + this.name);
     }
+
+    register(){
+
+    }
 }
 
-let Ravindu = new User("ravindu",22,"facebook");
+let Ravindu = new User("lakshan",22,"facebook");

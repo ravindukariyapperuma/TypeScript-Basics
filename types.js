@@ -63,6 +63,8 @@ var User = /** @class */ (function () {
         this.socialm = socialm;
         console.log("Hi " + this.name);
     }
+    User.prototype.register = function () {
+    };
     return User;
 }());
-var Ravindu = new User("ravindu", 22, "facebook");
+var Ravindu = new User("lakshan", 22, "facebook");
