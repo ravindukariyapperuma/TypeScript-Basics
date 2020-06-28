@@ -45,8 +45,13 @@
 
 // functions ================================================
 
-function getTotal(n1 :number, n2 :number):number{
-    return n1+n2;
+function getTotal(n1 :string, n2 :string):string{
+
+    // if(typeof n1 == 'string'){
+    //     n1 = parseInt(n1);
+    // }
+
+    return n1+" "+n2;
 }
 
-console.log(getTotal(3,4));
+console.log(getTotal("ravindu","lakshan"));

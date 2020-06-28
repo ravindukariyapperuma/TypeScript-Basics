@@ -29,6 +29,9 @@
 // console.log(n);
 // functions ================================================
 function getTotal(n1, n2) {
-    return n1 + n2;
+    // if(typeof n1 == 'string'){
+    //     n1 = parseInt(n1);
+    // }
+    return n1 + " " + n2;
 }
-console.log(getTotal(3, 4));
+console.log(getTotal("ravindu", "lakshan"));
