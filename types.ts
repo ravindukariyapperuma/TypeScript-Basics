@@ -59,8 +59,15 @@ console.log(getTotal("ravindu","lakshan"));
 
 // Interfaces ==================================================
 
-function myinterface(mydata: {title: string, age :number}){
+interface MyBiodata{
+    title: string;
+    age: number;
+}
+
+function myinterface(mydata: MyBiodata){
     console.log(mydata.title + " is young he is " + mydata.age);
 }
 
-myinterface({title: "Ravindu", age: 22});
+let Mybio = {title: "Ravindu", age: 22};
+
+myinterface(Mybio);
