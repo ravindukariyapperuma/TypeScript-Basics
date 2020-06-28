@@ -44,7 +44,7 @@
 // console.log(n);
 
 // functions ================================================
-
+/*
 function getTotal(n1 :string, n2 :string):string{
 
     // if(typeof n1 == 'string'){
@@ -55,3 +55,12 @@ function getTotal(n1 :string, n2 :string):string{
 }
 
 console.log(getTotal("ravindu","lakshan"));
+*/
+
+// Interfaces ==================================================
+
+function myinterface(mydata: {title: string, age :number}){
+    console.log(mydata.title + " is young he is " + mydata.age);
+}
+
+myinterface({title: "Ravindu", age: 22});

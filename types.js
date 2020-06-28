@@ -28,10 +28,20 @@
 // let n: null = null;
 // console.log(n);
 // functions ================================================
-function getTotal(n1, n2) {
+/*
+function getTotal(n1 :string, n2 :string):string{
+
     // if(typeof n1 == 'string'){
     //     n1 = parseInt(n1);
     // }
-    return n1 + " " + n2;
+
+    return n1+" "+n2;
 }
-console.log(getTotal("ravindu", "lakshan"));
+
+console.log(getTotal("ravindu","lakshan"));
+*/
+// Interfaces ==================================================
+function myinterface(mydata) {
+    console.log(mydata.title + " is young he is " + mydata.age);
+}
+myinterface({ title: "Ravindu", age: 22 });
