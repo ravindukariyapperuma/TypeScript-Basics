@@ -1,4 +1,4 @@
-// Data types *********************************
+// Data types =========================================
 
 // let mystring: string;
 // let mynumber: number;
@@ -38,7 +38,15 @@
 
 // Undefined and null *************************
 
-let u: undefined = undefined;
-let n: null = null;
+// let u: undefined = undefined;
+// let n: null = null;
 
-console.log(n);
+// console.log(n);
+
+// functions ================================================
+
+function getTotal(n1,n2){
+    return n1+n2;
+}
+
+console.log(getTotal(3,4));
